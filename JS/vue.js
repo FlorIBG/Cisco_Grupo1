@@ -1,6 +1,6 @@
-Vue.config.debug = true;
-Vue.config.devtools = true;
-Vue.config.silent = true;
+Vue.config.debug = false;
+Vue.config.devtools = false;
+Vue.config.silent = false;
 
 $(document).ready(function() {
     $("#search-entry").focus();
